@@ -23,7 +23,7 @@ directory = str(os.getenv("INPUT_DIRECTORY", ""))
 # .env is set by default
 file_name = str(os.getenv("INPUT_FILE_NAME", ".env"))
 
-path = str(os.getenv("~/backend/_work/OctaveSite-MERN-Stack/OctaveSite-MERN-Stack"))
+path = directory
 
 # This should resolve https://github.com/SpicyPizza/create-envfile/issues/27
 if path in ["", "None"]:
